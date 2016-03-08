@@ -40,8 +40,8 @@ function getComputerMove(move) {
     	console.log("Please choose either 'rock', 'paper', or 'scissors'.");
      var answer = prompt();
      return answer;
-    }
-    return /* Your Expression */;
+    };
+    
 }
 
 function getWinner(playerMove,computerMove) {
